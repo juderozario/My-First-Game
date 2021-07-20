@@ -1,0 +1,55 @@
+Main Characters (Demon Slayer):
+
+	Starting Name: Kamado Tanjiro
+	Health: 100
+	Heals: Locked to 3
+	Character Lives: Locked to 3
+	Evolve: After killing an enemy
+	<Actions>: Evolve(1) - 1) WaterStrike, 2) Evade, 3) Run, 4) Quit
+		   Evolve(2) - 1) FireStrike, 2) Evade, 3) Run, 4) Quit 
+
+	Damage Dealt: Random (10-15)
+
+	If dead switch character to: 
+	Zenitsu Agatsuma(Damage Decreased but no Damage on Evade), 
+	Inosuke Hashibira(More Damage but no Evade).
+	
+	Zenitsu Health: 100
+	Heals: None
+	Damage Dealt: Random (7-12)
+	<Actions>: 1) ThunderStrike, 2) Evade, 3) Run, 4) Quit
+	
+	Inosuke Health: 100
+	Heals: None
+	Damage Dealt: Random (12-18)
+	<Actions>: 1) AirStrike, 2) Evade, 3) Run, 4) Quit
+
+Enemies (Store all enemies in an array list): (protected Enemy Class), (Rui, Akaza, Muzan (Inherits Enemy Class))
+
+Class Info(Health, Name)
+
+	Enemy Name: [Rui, Akaza, Muzan]
+
+	Enemy[Rui]: Health = Random Health (80 - 100)
+				Damage = random damage (5-10)
+		        Damage: Dealt on every attack, half damage on evade
+		
+	Enemy[Akaza]: Health = Random Health (90-120)
+				  Damage = random damage (9-14)
+		          Damage = Dealt on every attack, 0.60* damage on evade
+
+	Enemy[Muzan]: Health = Random Health (100-130)
+				  Damage = random damage (7-13)
+		          Damage = Dealt on every attack, but always absorbs 0.30*damage.
+
+	Change Music after every boss being defeated
+
+If all enemies health == 0
+	Print Winner Screen
+Else 
+	Print You Lost
+
+
+		
+	
+	
