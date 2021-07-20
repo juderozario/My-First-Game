@@ -1,3 +1,7 @@
 # This is my first ever game created using GUI in Java.
 The main inspiration of the game comes from an anime known as Kimetsu no Yaiba or Demon Slayer. 
 All the characters and musics used in the game are also from the tv series itself.
+
+
+NOTE: The DemonSlayer folder is for VScode. So create a new workspace or go to an existing and just copy and paste the DemonSlayer file. 
+      The Demon-Slayer folder is for Eclipse. So create a new workspace and copy and paste all the files in the same directory.
